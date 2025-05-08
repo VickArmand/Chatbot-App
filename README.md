@@ -22,20 +22,17 @@
 #### Backend Service
 
 <ul>
-<li>First make sure you have Python and MySQL installed in your machine</li>
-<li>Start the sql service in your machine</li>
-<li>Create a database named Journalsappdb</li>
-<li>Create a virtual environment for the backend using the following command: python -m venv env</li>
-<li>Activate the virtual environment using the following command: source env/bin/activate - Linux env\Scripts\activate - Windows</li>
-<li>Add the required dependencies in the virtual environment using the following command: pip install -r requirements.txt</li>
-<li>Add tables to the database using python manage.py makemigrations and python manage.py migrate</li>
-<li>Execute the backend using the following command: python manage.py runserver</li>
+<li>First make sure you have Python and Pip installed in your machine</li>
+<li>Navigate to the backend directory using your command prompt or terminal</li>
+<li>Create a virtual environment named <strong>env</strong> for the backend using the following command: <code>python -m venv env</code></li>
+<li>Activate the virtual environment using the following command:
+<ul> <li>Linux - <code>source env/bin/activate</code></li><li>Windows - <code>env\Scripts\activate</code></li></ul></li>
+<li>Add the required dependencies in the virtual environment using the following command: <code>pip install -r requirements.txt</code></li>
+<li>Execute the backend using the following command: <code>uvicorn views:app --reload</code></li>
 </ul>
 
 #### Frontend Service
 
 <ul>
-<li>Navigate to the mobile directory on your command prompt</li>
-<li>Run npm install to add the required node modules in your machine</li>
-<li>Run npm start and select which platform to execute the application on</li>
+<li>Navigate to the frontend directory using your command prompt or terminal</li>
 </ul>
