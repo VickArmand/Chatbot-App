@@ -28,7 +28,7 @@
 <li>Activate the virtual environment using the following command:
 <ul> <li>Linux - <code>source env/bin/activate</code></li><li>Windows - <code>env\Scripts\activate</code></li></ul></li>
 <li>Add the required dependencies in the virtual environment using the following command: <code>pip install -r requirements.txt</code></li>
-<li>Execute the backend using the following command: <code>uvicorn views:app --reload</code></li>
+<li>Execute the backend using the following command: <code>uvicorn main:app --reload</code></li>
 </ul>
 
 #### Frontend Service
