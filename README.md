@@ -35,4 +35,6 @@
 
 <ul>
 <li>Navigate to the frontend directory using your command prompt or terminal</li>
+<li>Install the required dependencies using: <code>npm install</code></li>
+<li>Execute the project using: <code>npm run dev</code></li>
 </ul>
